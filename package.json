@@ -8,7 +8,7 @@
     "lib",
     "examples"
   ],
-  "main": "lib/ip-subnet-calculator.js",
+  "main": "assets/js/ip-subnet-calculator.js",
   "keywords": [
     "ip",
     "subnet",
