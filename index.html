@@ -39,21 +39,21 @@
       <br />
       <h2>IP Range Mask Optimizer</h2>
       <p>This tool calculates optimal netmasks for covering any range of IP addresses.
-      <form id='ip_calculate_range' class='calculator'>
+      <form id='ip_calculate_range'>
         Depending on the range of IP addresses entered, the result can be multiple masks.</p>
 
-        <input type='text' name='ip_calculate_range_start_ip' id='ip_calculate_range_start_ip' placeholder='IP range start value, e.g. 10.0.0.15' />
-        <input type='text' name='ip_calculate_range_end_ip' id='ip_calculate_range_end_ip' placeholder='IP range end value, e.g. 10.0.4.255' />
-        <input type='button' value='Calculate' id='ip_calculate_range_button' />
+        <input size="30" type='text' name='ip_calculate_range_start_ip' id='ip_calculate_range_start_ip' placeholder='IP range start value, e.g. 10.0.0.15' />
+        <input size="30" type='text' name='ip_calculate_range_end_ip' id='ip_calculate_range_end_ip' placeholder='IP range end value, e.g. 10.0.4.255' />
+        <input size="30" type='button' value='Calculate' id='ip_calculate_range_button' />
         <div class='result' id='ip_calculate_range_result' style='display: none;'></div>
       </form>
     </div>
     <div class="col-md-offset-1">
       <br />
       <h2>CIDR Subnet Mask Calculator</h2>
-      <form id='ip_calculate_cidr_mask' class='calculator'>
+      <form id='ip_calculate_cidr_mask'>
 
-        <input type='text' name='ip_calculate_cidr_mask_ip' id='ip_calculate_cidr_mask_ip' placeholder='IP Address' />
+        <input size="30" type='text' name='ip_calculate_cidr_mask_ip' id='ip_calculate_cidr_mask_ip' placeholder='IP Address' />
 
         <select name='ip_calculate_cidr_mask_mask' id='ip_calculate_cidr_mask_mask' placeholder='CIDR Subnet Mask'>
           <option value='' disabled selected>Select Subnet Mask</option>
@@ -105,10 +105,10 @@
     <div class="col-md-offset-1">
       <br />
       <h2>Subnet Mask Calculator</h2>
-      <form id='ip_calculate_mask' class='calculator'>
+      <form id='ip_calculate_mask'>
 
-        <input type='text' name='ip_calculate_mask_ip' id='ip_calculate_mask_ip' placeholder='IP Address' />
-        <input type='text' name='ip_calculate_mask_mask' id='ip_calculate_mask_mask' placeholder='Subnet mask, e.g. 255.255.255.0' />
+        <input size="30" type='text' name='ip_calculate_mask_ip' id='ip_calculate_mask_ip' placeholder='IP Address' />
+        <input size="30" type='text' name='ip_calculate_mask_mask' id='ip_calculate_mask_mask' placeholder='Subnet mask, e.g. 255.255.255.0' />
 
         <input type='button' value='Calculate' id='ip_calculate_mask_button' />
 
